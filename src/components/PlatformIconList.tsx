@@ -1,5 +1,5 @@
 import { HStack, Icon } from "@chakra-ui/react";
-import { Platfotm } from "../hooks/useGames";
+import { Platform } from "../hooks/usePlatforms";
 import {
   FaWindows,
   FaPlaystation,
@@ -14,7 +14,7 @@ import { BsGlobe } from "react-icons/bs";
 import { IconType } from "react-icons";
 
 interface Props {
-  platforms: Platfotm[];
+  platforms: Platform[];
 }
 
 const PlatformIconList = ({ platforms }: Props) => {
